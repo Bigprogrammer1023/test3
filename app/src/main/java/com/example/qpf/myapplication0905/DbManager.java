@@ -51,6 +51,6 @@ public class DbManager
     }
     private void insert(int id)
     {
-        String sql = "insert into ";
+        String sql = "insert into zsmsrelation(z_pk,zcontent) values (-1,zcontent = ?)";
     }
 }
